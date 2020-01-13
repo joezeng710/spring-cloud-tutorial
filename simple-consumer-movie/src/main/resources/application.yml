@@ -1,0 +1,13 @@
+server:
+  port: 10010
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+
+user:
+  userServiceUrl: http://localhost:10001/
